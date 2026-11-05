@@ -13,9 +13,9 @@
 
 <br/>
 
-🇨🇴 Construyo **APIs REST** con Java y Spring Boot, y las conecto con interfaces en React y Next.js. Me enfoco en código limpio, mantenible y útil para el negocio.
+🇨🇴 Soy desarrollador **Full Stack** con formación en Desarrollo de Software y un fuerte enfoque en el **backend**. Disfruto diseñar y construir **APIs REST** con Java y Spring Boot, modelar bases de datos relacionales y llevar esas soluciones a interfaces claras con React y Next.js. He trabajado en proyectos propios y en equipo, siempre buscando optimizar procesos reales con código limpio, mantenible y alineado con lo que el negocio necesita. Me caracterizan la capacidad de análisis, la resolución de problemas y las ganas de aprender algo nuevo cada día.
 
-🇺🇸 I build **REST APIs** with Java and Spring Boot and connect them to React and Next.js interfaces. I focus on clean, maintainable, business-driven code.
+🇺🇸 I'm a **Full Stack** developer with a background in Software Development and a strong **backend** focus. I enjoy designing and building **REST APIs** with Java and Spring Boot, modeling relational databases and bringing those solutions to clear interfaces with React and Next.js. I've worked on personal and team projects, always aiming to improve real processes with clean, maintainable, business-aligned code. I'm known for analytical thinking, problem solving and a drive to learn something new every day.
 
 <br/>
 
