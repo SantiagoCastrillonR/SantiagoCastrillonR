@@ -1,6 +1,6 @@
 <!-- ===================== BANNER ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1f6feb,100:70a5fd&height=220&section=header&text=Santiago%20Castrill%C3%B3n&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Full%20Stack%20Developer%20%E2%80%A2%20Java%20%26%20Spring%20Boot&descAlignY=58&descSize=18&animation=fadeIn" alt="Banner Santiago Castrillón" />
+  <img src="./banner.svg" width="100%" alt="Banner Santiago Castrillón" />
 </p>
 
 <p align="center">
@@ -188,5 +188,5 @@ public class SantiagoCastrillon extends Developer {
 
 <!-- ===================== FOOTER ===================== -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:70a5fd,50:1f6feb,100:0d1117&height=120&section=footer" alt="Footer" />
+  <img src="./footer.svg" width="100%" alt="Footer" />
 </p>
