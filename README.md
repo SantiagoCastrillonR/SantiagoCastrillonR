@@ -29,7 +29,7 @@
 
 - **[LanhuaConnect](https://github.com/Michaelec19/reserve-one-5/tree/dev)**: gestión de un club de artes marciales con API REST y JWT. *Java · Spring Boot · PostgreSQL*
 - **[Taco Loco](https://github.com/DiegoRojas25/HackathonProyect)**: e-commerce de hackathon con carrito en tiempo real. *JavaScript · Bootstrap*
-- **[Planificador de Tareas](https://github.com/SantiagoCastrillonR/planificador-tareas)**: organiza tareas por estado (pendiente, en progreso, completada) con validación de formularios y alertas visuales. *JavaScript · Bootstrap 5 · SweetAlert2* · [Demo](https://santiagocastrillonr.github.io/planificador-tareas/)
+- **[Planificador de Tareas](https://github.com/SantiagoCastrillonR/planificador-tareas)**: organiza tareas por estado (pendiente, en progreso, completada) con validación de formularios y alertas visuales. *JavaScript · Bootstrap 5 · SweetAlert2* ·
 
 <br/>
 
