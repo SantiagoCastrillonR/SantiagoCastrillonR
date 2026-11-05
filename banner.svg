@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="60%" stop-color="#0f1b33"/>
+      <stop offset="100%" stop-color="#1f3b73"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#70a5fd"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#1f6feb" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+    <style>
+      .mono { font-family: 'Fira Code', 'JetBrains Mono', Consolas, 'Courier New', monospace; }
+      .fade1 { animation: in 0.6s ease-out 0.2s both; }
+      .fade2 { animation: in 0.6s ease-out 0.9s both; }
+      .fade3 { animation: in 0.6s ease-out 1.6s both; }
+      .fade4 { animation: in 0.6s ease-out 2.3s both; }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+      @keyframes blink { 50% { opacity: 0; } }
+    </style>
+  </defs>
+
+  <!-- Fondo -->
+  <rect width="1000" height="260" rx="16" fill="url(#bg)"/>
+  <rect width="1000" height="260" rx="16" fill="url(#grid)"/>
+
+  <!-- Barra de ventana -->
+  <rect x="0" y="0" width="1000" height="38" rx="16" fill="#161b22"/>
+  <rect x="0" y="22" width="1000" height="16" fill="#161b22"/>
+  <circle cx="26" cy="19" r="6.5" fill="#ff5f56"/>
+  <circle cx="48" cy="19" r="6.5" fill="#ffbd2e"/>
+  <circle cx="70" cy="19" r="6.5" fill="#27c93f"/>
+  <text x="500" y="24" text-anchor="middle" class="mono" font-size="13" fill="#8b949e">santiago@SANTI-OS: ~</text>
+
+  <!-- Líneas de terminal -->
+  <text xml:space="preserve" x="40" y="78" class="mono fade1" font-size="16" fill="#8b949e">
+    <tspan fill="#2ea043">user</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#70a5fd">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#c9d1d9">./boot --profile</tspan>
+  </text>
+  <text x="40" y="102" class="mono fade2" font-size="14" fill="#8b949e">Welcome to SANTI-OS 1.0 LTS · Medellín, Colombia</text>
+
+  <!-- Nombre -->
+  <text x="40" y="160" class="mono fade3" font-size="50" font-weight="700" fill="url(#title)">Santiago Castrillón</text>
+
+  <!-- Rol -->
+  <text xml:space="preserve" x="40" y="204" class="mono fade4" font-size="20" fill="#c9d1d9">
+    <tspan fill="#ff7b72">&gt;</tspan> Full Stack Developer <tspan fill="#8b949e">·</tspan> <tspan fill="#ffa657">Java</tspan> <tspan fill="#8b949e">&amp;</tspan> <tspan fill="#7ee787">Spring Boot</tspan><tspan class="cursor" fill="#70a5fd"> █</tspan>
+  </text>
+
+  <!-- Decoración: llaves de código -->
+  <text x="960" y="190" text-anchor="end" class="mono" font-size="120" font-weight="700" fill="#70a5fd" fill-opacity="0.10">{ }</text>
+</svg>
